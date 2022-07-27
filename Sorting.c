@@ -35,6 +35,26 @@ void selectionSort(int arr[], int n) {
         }
     }
 }
+void bubbleSort (int arr[], int n) // Arr is an array of size N.
+{
+    for ( int i=0; i<=n-1;i++)// N elements => (N-1) pass
+    {
+    // Swap adjacent elements of Arr[1:(N-I)]such that
+    // largest among { Arr[1], Arr[2], ..., Arr[N-I] } reaches to Arr[N-I]
+        //bool noSwap = true; // Check occurrence of swapping in inner loop
+        int flag =0;
+        for ( int j=0;j<=n-1;j++ ){ // Execute the pass
+        {
+            if ( arr [j] > arr[j+1] )
+            { 
+                swap( &arr[j], &arr[j+1] );
+                flag=1;
+            }
+        }
+        if (flag=0) // exit the loop
+            break;
+    }
+}}
 
 int main()
 {
