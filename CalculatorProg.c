@@ -16,11 +16,11 @@ int main() {
     case 2:
     printf("%.1lf - %.1lf = %.1lf", first, second, first - second);
       break;
-   /* case 3:
+    case 3:
       printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
       break;
     case 4:
-      printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
+     /* printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
       break;
     // operator doesn't match any case constant
     default:
