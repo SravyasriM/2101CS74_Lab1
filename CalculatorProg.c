@@ -20,10 +20,10 @@ int main() {
       printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
       break;
     case 4:
-     /* printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
+      printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
       break;
     // operator doesn't match any case constant
-    default:
+    /*default:
       printf("Error! operator is not correct");
   }*/
 return 0;
